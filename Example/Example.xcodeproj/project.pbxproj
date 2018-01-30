@@ -40,6 +40,7 @@
 		652B07881FEBFA8400C17874 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		652B078D1FEBFAFD00C17874 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../BLLogger/LICENSE; sourceTree = "<group>"; };
 		652B07911FEC123500C17874 /* Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lazy.swift; sourceTree = "<group>"; };
+		653C803D20213241003846EA /* push.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = push.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 			children = (
 				652B078D1FEBFAFD00C17874 /* LICENSE */,
 				652B07881FEBFA8400C17874 /* README.md */,
+				653C803F20213253003846EA /* Scripts */,
 				652B07901FEC123500C17874 /* Source */,
 				652B07671FEBFA7800C17874 /* Example */,
 				652B077C1FEBFA7900C17874 /* ExampleTests */,
@@ -110,6 +112,14 @@
 			);
 			name = Source;
 			path = ../Source;
+			sourceTree = "<group>";
+		};
+		653C803F20213253003846EA /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				653C803D20213241003846EA /* push.sh */,
+			);
+			path = Scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
