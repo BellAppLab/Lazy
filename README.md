@@ -1,6 +1,6 @@
 # Lazy
 _When `lazy var` doesn't cut it, have a truly Lazy variable in Swift._
-_v0.2.0_
+_v0.2.1_
 
 So you declared a `lazy var` in Swift thinking it would behave like lazily instantiated variables in good ol' Objective-C. You thought you would set them to `nil` and they would reconstruct themselves later on when needed.
 
